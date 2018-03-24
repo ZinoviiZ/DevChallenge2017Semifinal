@@ -3,6 +3,9 @@ Application for DevChallenge2017 semifinal, backend nomination, middle-senior ca
 With that project I've passed semifinal and have been chosen for final. </br>
 https://devchallenge.it/ </br>
 
+## DevChallenge
+All-Ukrainian software development championship among junior, middle and senior programmers. The championship takes place in 3 stages: Qualification, Semifinal and offline Finals in Kyiv. Participants compete in eleven nominations in three directions: Web, Mobile, Game. Each nomination has 2 categories: Pro (Senior, Middle-to-Senior) and Standard (Middle, Junior-to-Middle). At the final, the tasks were from the partner Amazon.
+
 # BUILD APPLICATION
 
 docker run --name [mongo-container] -d mongo </br>
