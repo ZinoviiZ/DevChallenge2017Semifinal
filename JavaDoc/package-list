@@ -1,0 +1,13 @@
+com.dev.challenge
+com.dev.challenge.aop
+com.dev.challenge.builder
+com.dev.challenge.config
+com.dev.challenge.error
+com.dev.challenge.model.entity
+com.dev.challenge.model.response
+com.dev.challenge.repository
+com.dev.challenge.rest
+com.dev.challenge.service
+com.dev.challenge.service.helper
+com.dev.challenge.util
+com.dev.challenge.worker

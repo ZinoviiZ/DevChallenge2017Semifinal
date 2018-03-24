@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  mongodb:
+    image: 'bitnami/mongodb:latest'
+    labels:
+      kompose.service.type: nodeport
+#    networks:
+#      dev_challenge_final
+    ports:
+      - "27017:27017"
+    volumes:
+      - 'mongodb_data:/bitnami/mongodb'
+  dev_challenge:
+    build: Dockerfile
+    environment:
+      - RANDOM_MODE=true
+      - PAGES_NUMBER=777
+    links:
+     - mongodb
+volumes:
+  mongodb_data:
+    driver: local
