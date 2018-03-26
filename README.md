@@ -40,7 +40,7 @@ When you run the application, all threads initialize the ThreadExecutor class th
 For better and easier testing, the application added random_mode - to create a case for modified documents. With this mod for scrapping documents, every tenth is considered a new version of the document - an existing id is set up;
 
 The application scrapes content of the tag: `<div class="row otstupVertVneshn">`. It stores all important page information. An example of this information for this tag is shown in the image ![alt text](example.png)
-When scrapping documents, their original text (version 0) is stored. When there are changed documents, the Page.java class stores only the changed characters. PageDiff class in the diff field are saved. In the future, to work with text changes, I use the google-DiffMatchPatch library, which quickly relieves changes in the text, and provides a compact text format. An example of a content difference is in the file ![alt text](example.html)
+When scrapping documents, their original text (version 0) is stored. When there are changed documents, the Page.java class stores only the changed characters. PageDiff class in the diff field are saved. In the future, to work with text changes, I use the google-DiffMatchPatch library, which quickly relieves changes in the text, and provides a compact text format. An example of a content difference is in the file example.html
 
 #### All info about API:
 http://localhost:8080/swagger-ui.html - here you can test API. </br>
